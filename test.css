@@ -1,0 +1,21 @@
+.header_search {
+    font-family: 'Roboto', sans-serif;
+    width: 130px;
+    font-size: 16px;
+    padding: 9px 10px;
+    color: rgb(255, 255, 255);
+    border : 1px solid transparent;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* ??? */
+.header_search:focus {
+    border : 5px solid rgb(234 96 22);
+}
+
+.header_search input:focus {
+    border : 5px solid rgb(234 96 22);
+}
